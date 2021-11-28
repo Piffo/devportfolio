@@ -1,7 +1,7 @@
 # Own dev landing page
 
-Huge thanks to [Ryan] (https://github.com/RyanFitzgerald) for inspiration and example
-[here] (https://github.com/RyanFitzgerald/devportfolio).
+Huge thanks to [Ryan](https://github.com/RyanFitzgerald) for inspiration and example
+[here](https://github.com/RyanFitzgerald/devportfolio).
 
 
 ## License
