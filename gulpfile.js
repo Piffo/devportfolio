@@ -26,6 +26,19 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('./js'));
 });
 
+gulp.task('styles', () => {
+    return gulp.src('scss/vertical-timeline.scss')
+        .pipe(plumber(plumber({
+            errorHandler: function (err) {
+                console.log(err);
+                this.emit('end');
+            }
+        })))
+        .pipe(sass())
+        .pipe(autoprefixer())
+        .pipe(gulp.dest('dist'));
+});
+
 gulp.task('styles', function () {
     return gulp.src('./scss/styles.scss')
         .pipe(wait(250))
