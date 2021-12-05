@@ -51,7 +51,7 @@
     });
 
     // Create timeline
-    $('#experience-timeline').each(function() {
+    /*$('#experience-timeline').each(function() {
 
         $this = $(this); // Store reference to this
         $userContent = $this.children('div'); // user content
@@ -74,7 +74,7 @@
             }
         });
 
-    });
+    });*/
 
     // Open mobile menu
     $('#mobile-menu-open').click(function() {
