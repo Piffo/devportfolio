@@ -27,7 +27,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('styles', () => {
-    return gulp.src('css/vertical-timeline.css')
+    return gulp.src('scss/vertical-timeline.scss')
         .pipe(plumber(plumber({
             errorHandler: function (err) {
                 console.log(err);
