@@ -265,12 +265,12 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form action="https://formspree.io/f/mpzbzror" method="POST">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="name" placeholder="Your name" required>
+            <form method="POST" action="https://formspree.io/f/mpzbzror">
+                <input type="name" name="_name" placeholder="Your name" required>
                 <input type="email" name="_replyto" placeholder="Your email" required>
-                <input type="text" name="_gotcha" style="display:none">
                 <textarea name="message" placeholder="Your message" required></textarea>
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="text" name="_gotcha" style="display:none">
                 <button type="submit">Send</button>
             </form>
         </div>
