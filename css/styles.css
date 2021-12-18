@@ -266,6 +266,19 @@ footer {
     height: auto
 }
 
+#lead .overlay-bg {
+	height: 150px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	z-index: 3
+}
+
+#lead .overlay-bg .p-curve {
+	fill: #f2f2f5
+}
+
 #lead-content {
 	position: absolute;
 	z-index: 10;
