@@ -764,6 +764,9 @@ footer {
 		max-height: auto;
 		padding: 100px 15px
 	}
+    #lead .overlay-bg {
+		height: 80px
+	}
 	#lead-content {
 		position: relative;
 		transform: none;
