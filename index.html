@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
+
+<head>
     <!-- Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-E19Y2NXL8M"></script><script>
         window.dataLayer = window.dataLayer || [];
@@ -15,19 +16,19 @@
 
     <!-- Google Tag Manager -->
     <script>
-      (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-          'gtm.start': new Date().getTime(),
-          event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-TK532SS');
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TK532SS');
     </script>
     <!-- End Google Tag Manager -->
 
@@ -39,331 +40,388 @@
     <link rel="icon" href="logo.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <!-- <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+        integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="scss/vertical-timeline.css">
-  </head>
+</head>
 
-  <body>
-      <!-- Google Tag Manager (noscript) -->
+<body>
+    <!-- Google Tag Manager (noscript) -->
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TK532SS"height="0" width="0" style="display:none;visibility:hidden">
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TK532SS" height="0" width="0"
+            style="display:none;visibility:hidden">
         </iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <div id="mobile-menu-open" class="shadow-large">
-      <i class="fa fa-bars" aria-hidden="true"></i>
+        <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
 
     <header>
-      <div id="mobile-menu-close">
-        <span>Close</span>
-        <i class="fa fa-times" aria-hidden="true"></i>
-      </div>
-      <nav>
-        <ul id="menu">
-          <li id="logo" href="https://mpiffari.github.io/me/">
-            <img src="logo.ico" height="20px" width="20px" />
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#education">Education</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#newsletters_n_podcasts">Others</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+        <div id="mobile-menu-close">
+            <span>Close</span>
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li id="logo" href="https://mpiffari.github.io/me/">
+                    <img src="logo.ico" height="20px" width="20px" />
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#newsletters_n_podcasts">Others</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <!-- End header -->
 
     <div id="lead" data-scroll-index="0">
-      <div id="lead-content">
-        <h1>
-          <span class="main-title">Michele Piffari</span>
-          <h2>Freelance Software Engineer</h2>
-          <a href="static/cv/cv_it.pdf" class="btn-rounded-white">Download Resume</a>
-        </h1>
-      </div>
-      <!-- End #lead-content -->
-      <div id="lead-overlay"></div>
-      <div id="lead-down">
-        <span data-scroll-nav="1">
-          <i class="fa fa-chevron-down" aria-hidden="true"></i>
-        </span>
-      </div>
-      <!-- End #lead-down -->
-      <svg class="overlay-bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 300" preserveAspectRatio="none">
-        <!--
+        <div id="lead-content">
+            <h1>
+                <span class="main-title">Michele Piffari</span>
+                <h2>Freelance Software Engineer</h2>
+                <a href="static/cv/cv_it.pdf" class="btn-rounded-white">Download Resume</a>
+            </h1>
+        </div>
+        <!-- End #lead-content -->
+        <div id="lead-overlay"></div>
+        <div id="lead-down">
+            <span data-scroll-nav="1">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+        <svg class="overlay-bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+            y="0px" viewBox="0 0 1400 300" preserveAspectRatio="none">
+            <!--
         <filter id="inset-shadow" x="-50%" y="-50%" width="200%" height="200%"><feComponentTransfer in=SourceAlpha><feFuncA type="table" tableValues="1 0" /></feComponentTransfer><feGaussianBlur stdDeviation="12"/><feOffset dx="0" dy="30" result="offsetblur"/><feFlood flood-color="rgb(0, 0, 0, 0.5)" result="color"/><feComposite in2="offsetblur" operator="in"/><feComposite in2="SourceAlpha" operator="in" /><feMerge><feMergeNode in="SourceGraphic" /><feMergeNode /></feMerge></filter><polygon class="p-curve" filter="url(#inset-shadow)" points="-50,0 700,300 1450,0 1450,350 -50,350 "></polygon>
         -->
-        <polygon class="p-curve" points="0,0 700,300 1400,0 1400,310 0,300 "></polygon>
-      </svg>
+            <polygon class="p-curve" points="0,0 700,300 1400,0 1400,310 0,300 "></polygon>
+        </svg>
     </div>
     <!-- End #lead -->
 
     <div id="experience">
-      <h2 class="heading">👨‍💻 Me = 👨‍🎓 and 👷 + 💡 + 🧐 + 🚴⛰️ </h2>
+        <h2 class="heading">👨‍💻 Me = 👨‍🎓 and 👷 + 💡 + 🧐 + 🚴⛰️ </h2>
     </div>
     <!-- End #experience -->
 
     <div id="about" data-scroll-index="1" data-aos="zoom-in">
-      <div class="container">
-        <div class="row about-row">
-          <div class="col-lg-4 col-md-5 p-0 m-0">
-            <div class="profile-image">
-              <img id="img-about-me" alt="About me" src="images/me.jpg" />
+        <div class="container">
+            <div class="row about-row">
+                <div class="col-lg-4 col-md-5 p-0 m-0">
+                    <div class="profile-image">
+                        <img id="img-about-me" alt="About me" src="images/me.jpg" />
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7 about-desc-container">
+                    <h3> 👋 Hey there! <br /> I'm Michele, an 🇮🇹 Italian 👨‍🔬 Software Engineer and 🍃 outdoor/ 🏐🚵
+                        indor sport addicted. </h3>
+                    <p> Currently I'm working in Bergamo area as a Freelance Software Engineer. My work projects are
+                        related to integration of embedded systems with high level application, both PC side that Mobile
+                        side. <br /> In my free time I like cycling in mountains, sorrounded by wonderful landscape.
+                        <br /> Currently I'm studying in order to take qualification as engineer. </p>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-8 col-md-7 about-desc-container">
-            <h3> 👋 Hey there! <br /> I'm Michele, an 🇮🇹 Italian 👨‍🔬 Software Engineer and 🍃 outdoor/ 🏐🚵 indor sport addicted. </h3>
-            <p> Currently I'm working in Bergamo area as a Freelance Software Engineer. My work projects are related to integration of embedded systems with high level application, both PC side that Mobile side. <br /> In my free time I like cycling in mountains, sorrounded by wonderful landscape. <br /> Currently I'm studying in order to take qualification as engineer. </p>
-          </div>
         </div>
-      </div>
     </div>
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-      <h2 class="heading">Working experience </h2>
-      <div id="experience-timeline">
-        <div data-date="2013 – 2017">
-          <a title="Orobica Tecno Impianti" aria-label="Orobica Tecno Impianti" href="http://www.orobicatecnoimpianti.eu/" target="_blank">
-            <h3>Orobica Tecno Impianti</h3>
-          </a>
-          <h4>Worker help</h4>
-          <p> I worked as junior workman during the summer period when school is over: I was involved in prjoect, mounting and maintenance of piping chemical plants. <br /> This first experience lead me to a better idea of what team work mean, and the responsability that derived from its. </p>
+        <h2 class="heading">Working experience </h2>
+        <div id="experience-timeline">
+            <div data-date="2013 – 2017">
+                <a title="Orobica Tecno Impianti" aria-label="Orobica Tecno Impianti"
+                    href="http://www.orobicatecnoimpianti.eu/" target="_blank">
+                    <h3>Orobica Tecno Impianti</h3>
+                </a>
+                <h4>Worker help</h4>
+                <p> I worked as junior workman during the summer period when school is over: I was involved in prjoect,
+                    mounting and maintenance of piping chemical plants. <br /> This first experience lead me to a better
+                    idea of what team work mean, and the responsability that derived from its. </p>
+            </div>
+            <div data-date="March 2016">
+                <a title="Rovetta" aria-label="Rovetta" href="https://scuolerovetta.edu.it/" target="_blank">
+                    <h3>Istituto comprensivo di Rovetta</h3>
+                    <h4>Teacher</h4>
+                    <p> In this short period I held the role of substitute teacher at the lower secondary school of
+                        Castione della Presolana, in the mathematical / scientific didactic areas. </p>
+            </div>
+            <div data-date="May 2018 – Now">
+                <a title="Quantic Innovations" aria-label="Quantic Innovations"
+                    href="http://www.quanticinnovations.com/" target="_blank">
+                    <h3>Quantic Innovations</h3>
+                </a>
+                <h4>Software engineer</h4>
+                <p> From the university period, I'm working with very dynamic start-up of Bergamo area. Till the very
+                    beginning of my work here, I develop and manage the low level part of a mobile application for iOS
+                    and cross-platform platforms. My work is manly focused on handle of BLE and NFC communications
+                    towards electrification-based systems operating via Modbus industrial protocol. </br7> I'm also
+                    involved in project related to develop of software applications used to provide high-level
+                    functionalities for embeeded system, with .NET framework. </p>
+            </div>
         </div>
-        <div data-date="March 2016">
-          <a title="Rovetta" aria-label="Rovetta" href="https://scuolerovetta.edu.it/" target="_blank">
-            <h3>Istituto comprensivo di Rovetta</h3>
-            <h4>Teacher</h4>
-            <p> In this short period I held the role of substitute teacher at the lower secondary school of Castione della Presolana, in the mathematical / scientific didactic areas. </p>
-        </div>
-        <div data-date="May 2018 – Now">
-          <a title="Quantic Innovations" aria-label="Quantic Innovations" href="http://www.quanticinnovations.com/" target="_blank">
-            <h3>Quantic Innovations</h3>
-          </a>
-          <h4>Software engineer</h4>
-          <p> From the university period, I'm working with very dynamic start-up of Bergamo area. Till the very beginning of my work here, I develop and manage the low level part of a mobile application for iOS and cross-platform platforms. My work is manly focused on handle of BLE and NFC communications towards electrification-based systems operating via Modbus industrial protocol. </br7> I'm also involved in project related to develop of software applications used to provide high-level functionalities for embeeded system, with .NET framework. </p>
-        </div>
-      </div>
     </div>
     <!-- End #experience -->
 
     <div id="education">
-      <h2 class="heading">Studies</h2>
-      <div class="education-block">
-        <a title="UniBG" aria-label="UniBG" href="https://www.unibg.it/" target="_blank">
-          <h3>University of Bergamo</h3>
-        </a>
-        <span class="education-date">September 2018 - Marc 2021</span>
-        <h4>Master degree of Science in Computer Science</h4>
-        <h4>Score: 110/100 with honors</h4>
-        <p> During my master degree, I touched some different areas of the Computer Science area: from electronics to automatic control, passing through modeling and control of mechatronic and robotic systems. I also attended courses related to identification of models, analysis of data and the sphere of Artificial Intelligence with a relative part to IT Security. <br>
-          <br>
-          <br>
-        </p>
-        <a href="https://credential.unibg.it/blockcerts/b4e679b0-535d-11ec-bec2-6b5ed4771e5b" class="btn-rounded-black" target="_blank">🔐 Certificate</a>
-        <a href="static/degrees/Magistrale_PDF.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Thesis</a>
-        <a href="static/degrees/Magistrale_PPTX.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Presentation</a>
-        <a href="static/degrees/EN_Magistrale.png" class="btn-rounded-black" target="_blank">🇮🇹 Exams grade</a>
-      </div>
-      <div class="education-block">
-        <a title="HC-Lab3" aria-label="HC-Lab3" href="https://cyfe.unibg.it/it/formazione/hclab" target="_blank">
-          <h3>HC LAB 3</h3>
-        </a>
-        <span class="education-date">November 2020 - March 2021</span>
-        <h4>Health Contamination Laboratory</h4>
-        <p> Course lasting 6 months, which had the aim of promoting the culture of innovation and entrepreneurship in the context of Aging Population and Silver Economy. This course allowed me to use some of the most common tools in entrepreneurship, such as Bussines Model Canvas, and A/B Test. <br>
-          <br>
-          <br>
-        </p>
-        <a href="static/hc_lab/HCLAB - attestati-nominali_Piffari.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Certicate</a>
-      </div>
-      <div class="education-block">
-        <a title="SDU" aria-label="SDU" href="https://www.sdu.dk/en" target="_blank">
-          <h3>University of Southern Denmark, SDU</h3>
-        </a>
-        <span class="education-date">August 2019</span>
-        <h4>Summer school - Introduction to Reinforcement Learning</h4>
-        <p> Intensive 2 weeks course of Introduction to reinforcement learning for robotics at Southern Denmark University - SDU. <br>
-          <br>
-          <br>
-        </p>
-        <a href="static/ss_sdu/ss_sdu_digital_diploma.pdf" class="btn-rounded-black" target="_blank">🇬🇧 Digital Diploma</a>
-        <a href="static/ss_sdu/ss_sdu_photo.jpeg" class="btn-rounded-black" target="_blank">📷 Class from all around the 🌎</a>
-      </div>
-      <div class="education-block">
-        <a title="UniBG" aria-label="UniBG" href="https://www.unibg.it/" target="_blank">
-          <h3>University of Bergamo</h3>
-        </a>
-        <span class="education-date">Sept 2016 - Sept 2017</span>
-        <h4>Bachelor of Science in Computer Science</h4>
-        <h4>Score: 103/100</h4>
-        <p> The bachelor degree was characterized not only by solid training basic (mathematics, physics, chemistry), but also of in-depth studies in informatics (Informatics, Informatics 2, Databases and Web, Software Engineering) and in the areas of automation, electronics and networks telecommunication. <br>
-          <br>
-          <br>
-        </p>
-        <a href="static/degrees/Triennale_PDF.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Thesis</a>
-        <a href="static/degrees/EN_TriennaleExams.png" class="btn-rounded-black" target="_blank">🇮🇹 Exams grade</a>
-      </div>
-      <div class="education-block">
-        <a title="ISISS" aria-label="ISISS" href="https://www.istitutovalleseriana.edu.it/" target="_blank">
-          <h3>ISISS Valle Seriana</h3>
-        </a>
-        <span class="education-date">September 2015 - July 2018</span>
-        <h4>Electronics high school diploma</h4>
-        <p> The five years study path, allowed me to acquire technical knowledge related to theoretical part of electronics and control. I made also experience on design and construction of electronic circuits, using laboratory instruments (Multimeters-Power supplies-Oscilloscopes-Function generators). In the last part of the studies, I acquired knowledge related to the Arduino platform and open source robotic systems. <br>
-          <br>
-          <br>
-        </p>
-        <a href="static/high_school/LikeMoov_the_ebook.ibooks" class="btn-rounded-black" target="_blank">🇮🇹 Presentation (ibooks)</a>
-        <a href="static/high_school/attestato_gara_elettronica.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Electronics competition</a>
-      </div>
-      <!-- End .education-block -->
+        <h2 class="heading">Studies</h2>
+        <div class="education-block">
+            <a title="UniBG" aria-label="UniBG" href="https://www.unibg.it/" target="_blank">
+                <h3>University of Bergamo</h3>
+            </a>
+            <span class="education-date">September 2018 - Marc 2021</span>
+            <h4>Master degree of Science in Computer Science</h4>
+            <h4>Score: 110/100 with honors</h4>
+            <p> During my master degree, I touched some different areas of the Computer Science area: from electronics
+                to automatic control, passing through modeling and control of mechatronic and robotic systems. I also
+                attended courses related to identification of models, analysis of data and the sphere of Artificial
+                Intelligence with a relative part to IT Security. <br>
+                <br>
+                <br>
+            </p>
+            <a href="https://credential.unibg.it/blockcerts/b4e679b0-535d-11ec-bec2-6b5ed4771e5b"
+                class="btn-rounded-black" target="_blank">🔐 Certificate</a>
+            <br>
+            <br>
+            <a href="static/degrees/Magistrale_PDF.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Thesis</a>
+            <br>
+            <br>
+            <a href="static/degrees/Magistrale_PPTX.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Presentation</a>
+            <br>
+            <br>
+            <a href="static/degrees/EN_Magistrale.png" class="btn-rounded-black" target="_blank">🇮🇹 Exams grade</a>
+            <br>
+            <br>
+        </div>
+        <div class="education-block">
+            <a title="HC-Lab3" aria-label="HC-Lab3" href="https://cyfe.unibg.it/it/formazione/hclab" target="_blank">
+                <h3>HC LAB 3</h3>
+            </a>
+            <span class="education-date">November 2020 - March 2021</span>
+            <h4>Health Contamination Laboratory</h4>
+            <p> Course lasting 6 months, which had the aim of promoting the culture of innovation and entrepreneurship
+                in the context of Aging Population and Silver Economy. This course allowed me to use some of the most
+                common tools in entrepreneurship, such as Bussines Model Canvas, and A/B Test. <br>
+                <br>
+                <br>
+            </p>
+            <a href="static/hc_lab/HCLAB - attestati-nominali_Piffari.pdf" class="btn-rounded-black"
+                target="_blank">🇮🇹 Certicate</a>
+        </div>
+        <div class="education-block">
+            <a title="SDU" aria-label="SDU" href="https://www.sdu.dk/en" target="_blank">
+                <h3>University of Southern Denmark, SDU</h3>
+            </a>
+            <span class="education-date">August 2019</span>
+            <h4>Summer school - Introduction to Reinforcement Learning</h4>
+            <p> Intensive 2 weeks course of Introduction to reinforcement learning for robotics at Southern Denmark
+                University - SDU. <br>
+                <br>
+                <br>
+            </p>
+            <a href="static/ss_sdu/ss_sdu_digital_diploma.pdf" class="btn-rounded-black" target="_blank">🇬🇧 Digital
+                Diploma</a>
+            <br>
+            <br>
+            <a href="static/ss_sdu/ss_sdu_photo.jpeg" class="btn-rounded-black" target="_blank">📷 Class from all around
+                the 🌎</a>
+        </div>
+        <div class="education-block">
+            <a title="UniBG" aria-label="UniBG" href="https://www.unibg.it/" target="_blank">
+                <h3>University of Bergamo</h3>
+            </a>
+            <span class="education-date">Sept 2016 - Sept 2017</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <h4>Score: 103/100</h4>
+            <p> The bachelor degree was characterized not only by solid training basic (mathematics, physics,
+                chemistry), but also of in-depth studies in informatics (Informatics, Informatics 2, Databases and Web,
+                Software Engineering) and in the areas of automation, electronics and networks telecommunication. <br>
+                <br>
+                <br>
+            </p>
+            <a href="static/degrees/Triennale_PDF.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Thesis</a>
+            <br>
+            <br>
+            <a href="static/degrees/EN_TriennaleExams.png" class="btn-rounded-black" target="_blank">🇮🇹 Exams
+                grade</a>
+        </div>
+        <div class="education-block">
+            <a title="ISISS" aria-label="ISISS" href="https://www.istitutovalleseriana.edu.it/" target="_blank">
+                <h3>ISISS Valle Seriana</h3>
+            </a>
+            <span class="education-date">September 2015 - July 2018</span>
+            <h4>Electronics high school diploma</h4>
+            <p> The five years study path, allowed me to acquire technical knowledge related to theoretical part of
+                electronics and control. I made also experience on design and construction of electronic circuits, using
+                laboratory instruments (Multimeters-Power supplies-Oscilloscopes-Function generators). In the last part
+                of the studies, I acquired knowledge related to the Arduino platform and open source robotic systems.
+                <br>
+                <br>
+                <br>
+            </p>
+            <a href="static/high_school/LikeMoov_the_ebook.ibooks" class="btn-rounded-black" target="_blank">🇮🇹
+                Presentation (ibooks)</a>
+            <br>
+            <br>
+            <a href="static/high_school/attestato_gara_elettronica.pdf" class="btn-rounded-black" target="_blank">🇮🇹
+                Electronics competition</a>
+        </div>
+        <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
     <!-- TODO: add projects -->
 
     <div id="skills">
-      <h2 class="heading">Area of interest</h2>
-      <ul>
-        <li>BLE</li>
-        <li>NFC</li>
-        <li>Swift</li>
-        <li>Xamarin Forms</li>
-        <li>C#</li>
-        <li>.NET</li>
-        <li>Azure</li>
-        <li>CI/CD</li>
-        <li>Lint</li>
-        <li>XML/JSON</li>
-      </ul>
+        <h2 class="heading">Area of interest</h2>
+        <ul>
+            <li>BLE</li>
+            <li>NFC</li>
+            <li>Swift</li>
+            <li>Xamarin Forms</li>
+            <li>C#</li>
+            <li>.NET</li>
+            <li>Azure</li>
+            <li>CI/CD</li>
+            <li>Lint</li>
+            <li>XML/JSON</li>
+        </ul>
     </div>
     <!-- End #skills -->
 
     <div id="newsletters_n_podcasts" class="background-alt">
-      <h2 class="heading">Newsletters and podcast</h2>
-      <div class="container">
-        <h3>Here is a brief list of newsletters and podcast that I'm actually following, as source of inspiration and way to keep me update on world trend on different field. </h3>
-      </div>
-      <ul style="list-style-type:none;">
-        <li>
-          <a href="https://open.spotify.com/show/2iqGvJrjcLfv6jBSrlwsnG?si=447f2ca99263474e&nd=1" class="btn-rounded-black" target="_blank">🎧 Hacking Creativity</a>
-        </li>
-        <br>
-        <li>
-          <a href="https://www.morningbrew.com/sidekick/r?kid=f3adcf17" class="btn-rounded-black" target="_blank">📪 Sidekick</a>
-        </li>
-        <br>
-        <li>
-          <a href="https://mailchi.mp/francescooggiano/digital-journalism" class="btn-rounded-black" target="_blank">📪 DG</a>
-        </li>
-        <br>
-        <li>
-          <a href="https://fortissimo.substack.com/p/-ff4-mammut-e-torneo-tremaghi?r=jtiku&utm_campaign=post&utm_medium=email" class="btn-rounded-black" target="_blank">📪 Futuro Fortissimo</a>
-        </li>
-        <br>
-        <li>
-          <a href="https://lacolazionedeicampioni.substack.com/p/la-colazione-dei-campioni-187?r=jtiku&utm_campaign=post&utm_medium=email" class="btn-rounded-black" target="_blank">📪 La colazione dei campioni</a>
-        </li>
-        <br>
-        <li>
-          <a href="https://wondertools.substack.com/p/knightlab?r=jtiku&utm_campaign=post&utm_medium=email" class="btn-rounded-black" target="_blank">📪 Wondertools</a>
-        </li>
-      </ul>
+        <h2 class="heading">Newsletters and podcast</h2>
+        <div class="container">
+            <h3>Here is a brief list of newsletters and podcast that I'm actually following, as source of inspiration
+                and way to keep me update on world trend on different field. </h3>
+        </div>
+        <ul style="list-style-type:none;">
+            <li>
+                <a href="https://open.spotify.com/show/2iqGvJrjcLfv6jBSrlwsnG?si=447f2ca99263474e&nd=1"
+                    class="btn-rounded-black" target="_blank">🎧 Hacking Creativity</a>
+            </li>
+            <br>
+            <li>
+                <a href="https://www.morningbrew.com/sidekick/r?kid=f3adcf17" class="btn-rounded-black"
+                    target="_blank">📪 Sidekick</a>
+            </li>
+            <br>
+            <li>
+                <a href="https://mailchi.mp/francescooggiano/digital-journalism" class="btn-rounded-black"
+                    target="_blank">📪 DG</a>
+            </li>
+            <br>
+            <li>
+                <a href="https://fortissimo.substack.com/p/-ff4-mammut-e-torneo-tremaghi?r=jtiku&utm_campaign=post&utm_medium=email"
+                    class="btn-rounded-black" target="_blank">📪 Futuro Fortissimo</a>
+            </li>
+            <br>
+            <li>
+                <a href="https://lacolazionedeicampioni.substack.com/p/la-colazione-dei-campioni-187?r=jtiku&utm_campaign=post&utm_medium=email"
+                    class="btn-rounded-black" target="_blank">📪 La colazione dei campioni</a>
+            </li>
+            <br>
+            <li>
+                <a href="https://wondertools.substack.com/p/knightlab?r=jtiku&utm_campaign=post&utm_medium=email"
+                    class="btn-rounded-black" target="_blank">📪 Wondertools</a>
+            </li>
+        </ul>
     </div>
     <!-- End #newsletters-->
 
     <div id="contact">
-      <h2>Get in Touch</h2>
-      <div id="contact-form">
-        <form method="POST" action="https://formspree.io/f/mpzbzror">
-          <input type="name" name="_name" placeholder="Your name" required>
-          <input type="email" name="_replyto" placeholder="Your email" required>
-          <textarea name="message" placeholder="Your message" required></textarea>
-          <input type="hidden" name="_subject" value="Contact request from personal website" />
-          <input type="text" name="_gotcha" style="display:none">
-          <button type="submit">Send</button>
-        </form>
-      </div>
-      <!-- End #contact-form -->
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/mpzbzror">
+                <input type="name" name="_name" placeholder="Your name" required>
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="text" name="_gotcha" style="display:none">
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
-    
+
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-5 copyright">
-            <p> P.IVA: IT04501030169 - <a class="mailtoui" href="mailto:m.piffari@pec.it">PEC</a>
-              <br> Copyright &copy; <span id="current-year">2020</span> - M_Piffari <br>
-            </p>
-          </div>
-          <div class="col-sm-2 top">
-            <span id="to-top">
-              <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            </span>
-          </div>
-          <div class="col-sm-5 social">
-            <ul>
-              <li>
-                <a href="https://github.com/mpiffari" target="_blank">
-                  <i class="fab fa-github-square"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/m-piffari/" target="_blank">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/michele.piffari/" target="_blank">
-                  <i class="fab fa-facebook-square"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://join.skype.com/invite/mXTgpVrsbzSe" target="_blank">
-                  <i class="fab fa-skype"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://t.me/m_piffo" target="_blank">
-                  <i class="fab fa-telegram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.strava.com/athletes/980849" target="_blank">
-                  <i class="fab fa-strava"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://open.spotify.com/user/1176897543?si=f96da3e372294d3d" target="_blank">
-                  <i class="fab fa-spotify"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p> P.IVA: IT04501030169 - <a class="mailtoui" href="mailto:m.piffari@pec.it">PEC</a>
+                        <br> Copyright &copy; <span id="current-year">2020</span> - M_Piffari <br>
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/mpiffari" target="_blank">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/m-piffari/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/michele.piffari/" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://join.skype.com/invite/mXTgpVrsbzSe" target="_blank">
+                                <i class="fab fa-skype"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/m_piffo" target="_blank">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.strava.com/athletes/980849" target="_blank">
+                                <i class="fab fa-strava"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://open.spotify.com/user/1176897543?si=f96da3e372294d3d" target="_blank">
+                                <i class="fab fa-spotify"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
     <!-- End footer -->
 
@@ -372,9 +430,10 @@
     <script src="js/scripts.min.js"></script>
     <script src="js/vertical-timeline.min.js"></script>
     <script>
-      $('#ExperienceTimeline').verticalTimeline({
-        animate: 'slide'
-      });
+        $('#ExperienceTimeline').verticalTimeline({
+            animate: 'slide'
+        });
     </script>
-  </body>
+</body>
+
 </html>
