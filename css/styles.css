@@ -269,7 +269,7 @@ footer {
 	min-height: 500px;
 	max-height: 1080px;
     z-index: 1;
-	background: url(../images/cover.jpeg);
+	background: url(../resources/images/cover.jpeg);
 	background-size: cover;
 	background-position: center center;
 	padding: 15px;

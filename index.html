@@ -1,7 +1,25 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" dir="ltr">
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+    name="keywords"
+    content="Developer, Software, Mobile, BLE, NFC, Modbus, iOS, Android, cross-platform, Portfolio, University, Student, BG, Engineer"/>
+    <meta name="author" content="Michele Piffari" />
+    <title>Michele Piffari - Freelance</title>
+    <link rel="shortcut icon" href="resources/images/logo.ico" type="image/x-icon">
+    <link rel="icon" href="resources/images/logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+        integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="scss/vertical-timeline.css">
+
     <!-- Google Tag Manager -->
     <script>
         (function (w, d, s, l, i) {
@@ -18,20 +36,6 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TK532SS');
     </script>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Michele Piffari - Freelance</title>
-    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
-    <link rel="icon" href="logo.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
-        integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="scss/vertical-timeline.css">
 </head>
 
 <body>
@@ -56,28 +60,34 @@
         <nav>
             <ul id="menu">
                 <li id="logo" href="https://mpiffari.github.io/me/">
-                    <img src="logo.ico" height="20px" width="20px" />
+                    <img src="resources/images/logo.ico" height="20px" width="20px" />
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="#about" data-translatable>About // Me</a>
                 </li>
                 <li>
-                    <a href="#experience">Experience</a>
+                    <a href="#experience" data-translatable>Experience // Esperienze</a>
                 </li>
                 <li>
-                    <a href="#education">Education</a>
+                    <a href="#education" data-translatable>Education // Studi</a>
                 </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
+                <!-- <li>
+                    <a href="#projects">Projects // Progetti</a>
+                </li> -->
                 <li>
                     <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#newsletters_n_podcasts">Others</a>
+                    <a href="#newsletters_n_podcasts" data-translatable>Others // Altro</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact" data-translatable>Contact // Contattami</a>
+                </li>
+                <li>
+                    <button id="en-btn">EN</button>
+                </li>
+                <li>
+                    <button id="it-btn">IT</button>
                 </li>
             </ul>
         </nav>
@@ -89,7 +99,7 @@
             <h1>
                 <span class="main-title">Michele Piffari</span>
                 <h2>Freelance Software Engineer</h2>
-                <a href="static/cv/cv_it.pdf" class="btn-rounded-white" target="_blank">📃 CV</a>
+                <a href="resources/cv/CV_it.pdf" class="btn-rounded-white" target="_blank">📃 CV</a>
             </h1>
         </div>
         <!-- End #lead-content -->
@@ -120,16 +130,24 @@
             <div class="row about-row">
                 <div class="col-lg-4 col-md-5 p-0 m-0">
                     <div class="profile-image">
-                        <img id="img-about-me" alt="About me" src="images/me.jpg" />
+                        <img id="img-about-me" alt="About me" src="resources/images/me.jpg" />
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-7 about-desc-container">
-                    <h3> 👋 Hey there! <br /> I'm Michele, an 🇮🇹 Italian 👨‍🔬 Software Engineer and 🍃 outdoor/ 🏐🚵
-                        indor sport addicted. </h3>
-                    <p> Currently I'm working in Bergamo area as a Freelance Software Engineer. My work projects are
+                    <h3 data-translatable> 
+                        👋 Hey there! <br /> I'm Michele, an 🇮🇹 Italian 👨‍🔬 Software Engineer and ⛰️🚵 outdoor/ 🏐
+                        indoor sport addicted. // 
+                        👋 Ciao a tutti! <br /> Sono Michele, un 👨‍🔬🇮🇹 sviluppatore software e un appassionato delle attvità ⛰️🚵 all'aria aperta / 🏐
+                        al coperto.  
+                    </h3>
+                    <p data-translatable> Currently, I'm working in Bergamo area as a Freelance Software Engineer. My work projects are
                         related to integration of embedded systems with high level application, both PC side that Mobile
-                        side. <br /> In my free time I like cycling in mountains, sorrounded by wonderful landscape.
-                        <br /> Currently I'm studying in order to take qualification as engineer.
+                        side. <br /> In my free time I like cycling in mountains, surrounded by wonderful landscape.
+                        <br /> I'm also studying in order to take qualification as engineer. //
+
+                        Attualmente sto lavorando nella zona di Bergamo come "Freelance" in campo "Software Engineering".
+                        I miei progetti sono incentrati TODO:
+
                     </p>
                 </div>
             </div>
@@ -146,15 +164,15 @@
                     <h3>Orobica Tecno Impianti</h3>
                 </a>
                 <h4>Worker help</h4>
-                <p> I worked as junior workman during the summer period when school is over: I was involved in prjoect,
-                    mounting and maintenance of piping chemical plants. <br /> This first experience lead me to a better
-                    idea of what team work mean, and the responsability that derived from its. </p>
+                <p> I worked as junior workman during the summer period when school is over: I was involved in project,
+                    mounting and maintenance of piping chemical/aerial plants. <br /> This first experience lead me to a better
+                    idea of what team work mean, and the responsibility that derived from it. </p>
             </div>
             <div data-date="March 2016">
                 <a title="Rovetta" aria-label="Rovetta" href="https://scuolerovetta.edu.it/" target="_blank"></a>
                 <h3>Istituto comprensivo di Rovetta</h3>
                 <h4>Teacher</h4>
-                <p> In this short period I held the role of substitute teacher at the lower secondary school of
+                <p> In this short period, I held the role of substitute teacher at the lower secondary school of
                     Castione della Presolana, in the mathematical / scientific didactic areas. </p>
             </div>
             <div data-date="May 2018 – Now">
@@ -168,7 +186,7 @@
                     and cross-platform platforms. My work is manly focused on handle of BLE and NFC communications
                     towards electrification-based systems operating via Modbus industrial protocol. </br7> I'm also
                     involved in project related to develop of software applications used to provide high-level
-                    functionalities for embeeded system, with .NET framework. </p>
+                    functionalities for embedded system, with .NET framework. </p>
             </div>
         </div>
     </div>
@@ -181,10 +199,10 @@
                 <h3>University of Bergamo</h3>
             </a>
             <span class="education-date">September 2018 - Marc 2021</span>
-            <h4>Master degree of Science in Computer Science</h4>
+            <h4>Master degree in Computer Science</h4>
             <h4>Score: 110/100 with honors</h4>
             <p> During my master degree, I touched some different areas of the Computer Science area: from electronics
-                to automatic control, passing through modeling and control of mechatronic and robotic systems. I also
+                to automatic control, passing through modelling and control of mechatronic and robotic systems. I also
                 attended courses related to identification of models, analysis of data and the sphere of Artificial
                 Intelligence with a relative part to IT Security. <br>
                 <br>
@@ -194,13 +212,13 @@
                 class="btn-rounded-black" target="_blank">🔐 Certificate</a>
             <br>
             <br>
-            <a href="static/degrees/Magistrale_PDF.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Thesis</a>
+            <a href="resources/degrees/Magistrale_PDF.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Thesis</a>
             <br>
             <br>
-            <a href="static/degrees/Magistrale_PPTX.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Presentation</a>
+            <a href="resources/degrees/Magistrale_PPTX.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Presentation</a>
             <br>
             <br>
-            <a href="static/degrees/EN_MagistraleExams.png" class="btn-rounded-black" target="_blank">🇮🇹 Exams
+            <a href="resources/degrees/EN_MagistraleExams.png" class="btn-rounded-black" target="_blank">🇮🇹 Exams
                 grade</a>
             <br>
             <br>
@@ -213,11 +231,11 @@
             <h4>Health Contamination Laboratory</h4>
             <p> Course lasting 6 months, which had the aim of promoting the culture of innovation and entrepreneurship
                 in the context of Aging Population and Silver Economy. This course allowed me to use some of the most
-                common tools in entrepreneurship, such as Bussines Model Canvas, and A/B Test. <br>
+                common tools in entrepreneurship, such as Business Model Canvas, and A/B Test. <br>
                 <br>
                 <br>
             </p>
-            <a href="static/hc_lab/HCLAB - attestati-nominali_Piffari.pdf" class="btn-rounded-black"
+            <a href="resources/hc_lab/HCLAB - attestati-nominali_Piffari.pdf" class="btn-rounded-black"
                 target="_blank">🇮🇹 Certicate</a>
         </div>
         <div class="education-block">
@@ -231,11 +249,12 @@
                 <br>
                 <br>
             </p>
-            <a href="static/ss_sdu/ss_sdu_digital_diploma.pdf" class="btn-rounded-black" target="_blank">🇬🇧 Digital
+            <a href="resources/ss_sdu/ss_sdu_course_description.pdf" class="btn-rounded-black" target="_blank">🇬🇧 Course program</a>
+            <a href="resources/ss_sdu/ss_sdu_digital_diploma.pdf" class="btn-rounded-black" target="_blank">🇬🇧 Digital
                 Diploma</a>
             <br>
             <br>
-            <a href="static/ss_sdu/ss_sdu_photo.jpeg" class="btn-rounded-black" target="_blank">📷 Class from all around
+            <a href="resources/ss_sdu/ss_sdu_photo.jpeg" class="btn-rounded-black" target="_blank">📷 Class from all around
                 the 🌎</a>
         </div>
         <div class="education-block">
@@ -243,18 +262,18 @@
                 <h3>University of Bergamo</h3>
             </a>
             <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h4>Bachelor degree in Computer Science</h4>
             <h4>Score: 103/100</h4>
-            <p> The bachelor degree was characterized not only by solid training basic (mathematics, physics,
+            <p> The bachelor degree was characterized not only by solid training in basic (mathematics, physics,
                 chemistry), but also of in-depth studies in informatics (Informatics, Informatics 2, Databases and Web,
                 Software Engineering) and in the areas of automation, electronics and networks telecommunication. <br>
                 <br>
                 <br>
             </p>
-            <a href="static/degrees/Triennale_PDF.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Thesis</a>
+            <a href="resources/degrees/Triennale_PDF.pdf" class="btn-rounded-black" target="_blank">🇮🇹 Thesis</a>
             <br>
             <br>
-            <a href="static/degrees/EN_TriennaleExams.png" class="btn-rounded-black" target="_blank">🇮🇹 Exams
+            <a href="resources/degrees/EN_TriennaleExams.png" class="btn-rounded-black" target="_blank">🇮🇹 Exams
                 grade</a>
         </div>
         <div class="education-block">
@@ -271,11 +290,11 @@
                 <br>
                 <br>
             </p>
-            <a href="static/high_school/LikeMoov_the_ebook.ibooks" class="btn-rounded-black" target="_blank">🇮🇹
+            <a href="resources/high_school/LikeMoov_the_ebook.ibooks" class="btn-rounded-black" target="_blank">🇮🇹
                 Presentation (ibooks)</a>
             <br>
             <br>
-            <a href="static/high_school/attestato_gara_elettronica.pdf" class="btn-rounded-black" target="_blank">🇮🇹
+            <a href="resources/high_school/attestato_gara_elettronica.pdf" class="btn-rounded-black" target="_blank">🇮🇹
                 Electronics competition</a>
         </div>
         <!-- End .education-block -->
@@ -378,7 +397,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/m-piffari/" target="_blank">
+                            <a href="https://www.linkedin.com/in/mpiffari/" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </li>
@@ -418,6 +437,28 @@
     <script src="js/mailtoui.min.js"></script>
     <script src="js/scripts.min.js"></script>
     <script src="js/vertical-timeline.min.js"></script>
+
+    <script src="jquery.i18n/dom-i18n.min.js"></script>
+    <script>
+
+      var enButton = document.getElementById('en-btn');
+      var itButton = document.getElementById('it-btn');
+      var i18n = domI18n({
+        selector: '[data-translatable]',
+        separator: ' // ',
+        languages: ['en', 'it'],
+        defaultLanguage: 'en'
+      });
+
+      enButton.onclick = function () {
+        i18n.changeLanguage('en');
+      };
+
+      itButton.onclick = function () {
+        i18n.changeLanguage('it');
+      };
+    </script>
+
     <script>
         $('#ExperienceTimeline').verticalTimeline({
             animate: 'slide'
