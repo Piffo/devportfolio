@@ -118,7 +118,7 @@ header.sticky {
 	font-size: 1.5em;
 	z-index: 20;
 	padding: 0 7px;
-	border-radius: 4px;
+	border-radius: 15px;
 	background: #fff
 }
 
@@ -132,6 +132,7 @@ header.sticky {
 	padding-right: 20px;
 	cursor: pointer;
 	color: #181818;
+	border-radius: 15px;
 	border-bottom: 1px solid #dcd9d9
 }
 
@@ -201,33 +202,33 @@ footer {
 	color: #000000
 }
 
-.btn-rounded-white {
+.btn-rounded-clear {
 	display: inline-block;
 	color: #fff;
 	padding: 15px 25px;
 	border: 3px solid #fff;
-	border-radius: 30px;
+	border-radius: 15px;
 	transition: .5s ease all
 }
 
-.btn-rounded-white:hover {
+.btn-rounded-clear:hover {
 	color: #000000;
 	background: #fff;
 	text-decoration: none
 }
 
-.btn-rounded-black {
-	color: #484b4e;
+.btn-rounded-dark {
+	color: #1d6fa5;
 	padding: 5px 15px;
-	border: 3px solid #484b4e;
+	border: 3px solid #1d6fa5;
 	border-radius: 15px;
 	margin-right: 15px;
 	transition: 0.5s ease all
 }
 
-.btn-rounded-black:hover {
+.btn-rounded-dark:hover {
 	color: #fff;
-	background: #484b4e;
+	background: #1d6fa5;
 	text-decoration: none
 }
 
@@ -274,10 +275,7 @@ footer {
 	background-position: center center;
 	padding: 15px;
 	overflow: hidden;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+	border-radius: 15px;
     width: 100%;
     height: auto
 }
@@ -333,7 +331,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(41, 39, 39, 0.664);
+	background: rgba(29, 111, 165, 0.6);
 	z-index: 1
 }
 
@@ -355,13 +353,43 @@ footer {
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
-	border: 3px solid #585858;
+	border: 3px solid #ffffff;
 	text-align: center
 }
 
 #lead-down i {
 	animation: pulsate 1.5s ease;
 	animation-iteration-count: infinite;
+	padding-right: 2px;
+	padding-top: 7px
+}
+
+#lead-up {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+	bottom: -45px;
+	color: #fff
+}
+
+#lead-up span {
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	border: 3px solid #585858;
+	text-align: center
+}
+
+#lead-up i {
+	animation: pulsate 1.5s ease;
+	animation-iteration-count: infinite;
+	padding-right: 2px;
 	padding-top: 5px
 }
 
@@ -394,10 +422,7 @@ footer {
 #about .profile-image img {
 	position: relative;
 	z-index: 1;
-	border-bottom-right-radius: 15px;
-	border-top-right-radius: 15px;
-	border-bottom-left-radius: 15px;
-	border-top-left-radius: 15px;
+	border-radius: 15px;
 	background-size: auto;
     overflow: hidden;
 	width: 225px;
@@ -412,6 +437,7 @@ footer {
 }
 
 #about .about-desc-container {
+	border-radius: 15px;
 	display: table;
 	height: 250px
 }
@@ -435,6 +461,7 @@ footer {
 #experience-timeline {
 	margin: 30px auto 0 auto;
 	position: relative;
+	border-radius: 15px;
 	max-width: 1000px
 }
 
@@ -447,7 +474,7 @@ footer {
 	right: auto;
 	height: 100%;
 	width: 3px;
-	background: #000000;
+	background: #1d6fa5;
 	z-index: 0
 }
 
@@ -456,8 +483,8 @@ footer {
 	content: '';
 	width: 3px;
 	height: 40px;
-	background: #000000;
-	background: linear-gradient(to bottom, #000000, rgba(52, 152, 219, 0));
+	background: #1d6fa5;
+	background: linear-gradient(to bottom, #1d6fa5, rgb(129, 169, 196, 0.5));
 	top: 100%;
 	left: 303px
 }
@@ -467,7 +494,7 @@ footer {
 	background: #fff;
 	border: 1px solid #e6e6e6;
 	padding: 15px;
-	border-radius: 3px;
+	border-radius: 15px;
 	text-align: left
 }
 
@@ -504,7 +531,7 @@ footer {
 	color: #fff;
 	width: 50px;
 	height: 50px;
-	background: #000000;
+	background: #1d6fa5;
 	border-radius: 50%;
 	float: left;
 	z-index: 99;
@@ -542,6 +569,7 @@ footer {
 	max-width: 700px;
 	margin: 0 auto 30px auto;
 	padding: 15px;
+	border-radius: 15px;
 	border: 1px solid #dcd9d9;
 	text-align: left
 }
@@ -659,8 +687,9 @@ footer {
 	display: inline-block;
 	margin: 7px;
 	padding: 5px 10px;
-	color: #374054;
-	background: #e4e4ea;
+	color: #ffffff;
+	background: #1d6fa5;
+	border-radius: 15px;
 	list-style: none;
 	cursor: default;
 	font-size: 1.2em
@@ -688,7 +717,7 @@ footer {
 	display: block;
 	width: 100%;
 	padding: 10px;
-	border-radius: 4px;
+	border-radius: 15px;
 	border: none;
 	margin-bottom: 10px;
 	background: #1d6fa5;
@@ -857,7 +886,7 @@ footer {
 		height: 100%;
 		overflow-y: auto;
 		box-shadow: none;
-		border-radius: 0;
+		border-radius: 15px;
 		width: 100%
 	}
 	#menu li {
@@ -874,6 +903,9 @@ footer {
 		padding: 10px 20px
 	}
 	#lead-down {
+		display: none
+	}
+	#lead-up {
 		display: none
 	}
 	.education-block h3,
