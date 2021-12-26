@@ -1,5 +1,5 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 	font-size: 16px
 }
 
@@ -69,8 +69,9 @@ header ul {
 	text-align: center;
 	padding: 10px;
 	margin: 0;
-	border-bottom-right-radius: 4px;
-	border-bottom-left-radius: 4px
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border: 2px solid #1d6fa5;
 }
 
 header li {
@@ -87,7 +88,7 @@ header a:hover {
 	color: #217dbb;
 	text-decoration: none;
 	background: #eee;
-	border-radius: 4px
+	border-radius: 15px
 }
 
 header a:focus {
@@ -131,6 +132,7 @@ header.sticky {
 	padding: 10px;
 	padding-right: 20px;
 	cursor: pointer;
+	position: fixed;
 	color: #181818;
 	border-radius: 15px;
 	border-bottom: 1px solid #dcd9d9
@@ -143,6 +145,10 @@ header.sticky {
 
 #mobile-menu-close i {
 	vertical-align: middle
+}
+
+#mobile-menu-close button {
+	border-radius: 15px;
 }
 
 footer {
@@ -422,22 +428,18 @@ footer {
 #about .profile-image img {
 	position: relative;
 	z-index: 1;
-	border-radius: 15px;
-	background-size: auto;
-    overflow: hidden;
-	width: 225px;
-	height: 300px
+	border-radius: 50%;
+	height: 300px;
+	width: 300px
 }
 
 #about .about-row {
 	background-color: #fff;
 	border-radius: 15px;
-	box-shadow: 0 20px 30px -12.125px rgba(0, 0, 0, .3);
-	border: 1px solid #dcd9d9
+	vertical-align: middle
 }
 
 #about .about-desc-container {
-	border-radius: 15px;
 	display: table;
 	height: 250px
 }
@@ -446,7 +448,6 @@ footer {
 	display: table-cell;
 	vertical-align: middle
 }
-
 
 #experience {
 	padding: 50px 15px;
@@ -492,7 +493,7 @@ footer {
 .vtimeline-content {
 	margin-left: 350px;
 	background: #fff;
-	border: 1px solid #e6e6e6;
+	border: 1px solid #1d6fa5;
 	padding: 15px;
 	border-radius: 15px;
 	text-align: left
@@ -570,7 +571,7 @@ footer {
 	margin: 0 auto 30px auto;
 	padding: 15px;
 	border-radius: 15px;
-	border: 1px solid #dcd9d9;
+	border: 1px solid #1d6fa5;
 	text-align: left
 }
 
@@ -762,7 +763,7 @@ footer {
 	display: block;
 	width: 100%;
 	background: #fff;
-	border-radius: 4px;
+	border-radius: 15px;
 	padding: 5px 10px;
 	border: none;
 	color: #000000;
@@ -889,6 +890,9 @@ footer {
 		border-radius: 15px;
 		width: 100%
 	}
+	#menu button {
+		border-radius: 15px;
+	}
 	#menu li {
 		display: block;
 		margin-bottom: 10px
@@ -931,9 +935,7 @@ footer {
 	#about .profile-image img {
 		position: relative;
 		z-index: 1;
-		border-radius: 0;
-		border-top-right-radius: 15px;
-		border-top-left-radius: 15px;
+		border-radius: 15px;
 		width: 100%;
 		height: auto
 	}
