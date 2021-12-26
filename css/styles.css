@@ -71,7 +71,7 @@ header ul {
 	margin: 0;
 	border-bottom-right-radius:15px;
 	border-bottom-left-radius:15px;
-	border: 2px solid #1d6fa5;
+	border: 3px solid #1d6fa5;
 }
 
 header li {
@@ -205,14 +205,14 @@ footer {
 }
 
 .social a:hover {
-	color: #000000
+	color: #1d6fa5
 }
 
 .btn-rounded-clear {
 	display: inline-block;
 	color: #fff;
 	padding: 15px 25px;
-	border: 3px solid #fff;
+	border: 2px solid #fff;
 	border-radius: 15px;
 	transition: .5s ease all
 }
@@ -226,7 +226,8 @@ footer {
 .btn-rounded-dark {
 	color: #1d6fa5;
 	padding: 5px 15px;
-	border: 3px solid #1d6fa5;
+	font-weight: 400;
+	border: 2px solid #1d6fa5;
 	border-radius: 15px;
 	margin-right: 15px;
 	transition: 0.5s ease all
@@ -456,6 +457,8 @@ footer {
 }
 
 #experience h2 {
+	font-weight: 400;
+	font-size: 32px;
 	color: #374054
 }
 
@@ -493,28 +496,30 @@ footer {
 .vtimeline-content {
 	margin-left: 350px;
 	background: #fff;
-	border: 1px solid #1d6fa5;
+	border: 3px solid #1d6fa5;
 	padding: 15px;
 	border-radius: 15px;
 	text-align: left
 }
 
 .vtimeline-content h3 {
+	font-weight: 900;
 	font-size: 1.5em;
-	font-weight: 300;
 	color: #374054;
 	display: inline-block;
 	margin: 0
 }
 
 .vtimeline-content h4 {
+	font-weight: 400;
+	font-style: italic;
 	font-size: 1.2em;
-	font-weight: 300;
 	color: #7e8890;
 	margin: 0 0 15px 0
 }
 
 .vtimeline-content p {
+	font-weight: 400;
 	color: #74808a;
 	font-size: 0.9em;
 	margin: 0
@@ -571,15 +576,8 @@ footer {
 	margin: 0 auto 30px auto;
 	padding: 15px;
 	border-radius: 15px;
-	border: 1px solid #1d6fa5;
+	border: 3px solid #1d6fa5;
 	text-align: left
-}
-
-.education-block h3 {
-	font-weight: 500;
-	float: left;
-	margin: 0;
-	color: #374054
 }
 
 .education-block span {
@@ -587,15 +585,24 @@ footer {
 	float: right
 }
 
+.education-block h3 {
+	font-weight: 900;
+	float: left;
+	margin: 0;
+	color: #374054
+}
+
 .education-block h4 {
+	font-weight: 400;
+	font-style: italic;
 	color: #74808a;
 	clear: both;
-	font-weight: 500;
 	margin: 0 0 15px 0
 }
 
 .education-block p,
 .education-block ul {
+	font-weight: 300;
 	margin: 0;
 	color: #74808a;
 	font-size: 0.9em
@@ -628,7 +635,7 @@ footer {
 	margin: 0 auto 30px auto;
 	overflow: hidden;
 	background: #fff;
-	border-radius: 4px
+	border-radius: 15px
 }
 
 .project-image {
@@ -698,7 +705,7 @@ footer {
 
 #contact {
 	padding: 50px 15px;
-	background: #000000;
+	background: rgba(29, 111, 165, 0.6);
 	text-align: center
 }
 
@@ -857,6 +864,8 @@ footer {
 		top: auto
 	}
 	#lead-content h1 {
+		font-family: 'Lora', sans-serif;
+		font-weight: 900;
 		font-size: 3em
 	}
 	#lead-content h2 {
