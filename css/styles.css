@@ -428,10 +428,15 @@ footer {
 
 #about .profile-image img {
 	position: relative;
+	display: inline-block;
 	z-index: 1;
 	border-radius: 50%;
 	height: 300px;
 	width: 300px
+}
+
+#about figcaption {
+	text-align: center;
 }
 
 #about .about-row {
