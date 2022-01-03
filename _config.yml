@@ -1,2 +1,5 @@
    url: mpiffari.github.io
    baseurl: /mpiffari.dev
+
+   plugins:
+  - jekyll-seo-tag
